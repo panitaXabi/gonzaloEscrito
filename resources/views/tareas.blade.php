@@ -5,7 +5,7 @@
     <div class="container">
         <h1>Tareas</h1>
 
-        <form method="GET" action="{{ route('tareas.buscar') }}">
+        <form method="GET" action="{{ route('buscar') }}">
             <div class="form-group">
                 <input type="text" name="titulo" placeholder="Título">
                 <input type="text" name="autor" placeholder="Autor">
